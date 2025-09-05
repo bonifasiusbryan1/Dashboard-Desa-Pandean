@@ -1,0 +1,138 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class UsiaSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('usia')->insert([
+            ['rentang_usia' => '0-5 Tahun', 'laki_laki' => '31', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '6-10 Tahun', 'laki_laki' => '16', 'perempuan' => '21', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '11-15 Tahun', 'laki_laki' => '26', 'perempuan' => '46', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '16-20 Tahun', 'laki_laki' => '17', 'perempuan' => '21', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '21-25 Tahun', 'laki_laki' => '26', 'perempuan' => '26', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '26-30 Tahun', 'laki_laki' => '35', 'perempuan' => '21', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '31-35 Tahun', 'laki_laki' => '26', 'perempuan' => '31', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '36-40 Tahun', 'laki_laki' => '31', 'perempuan' => '24', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '41-45 Tahun', 'laki_laki' => '37', 'perempuan' => '40', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '46-50 Tahun', 'laki_laki' => '41', 'perempuan' => '33', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '51-55 Tahun', 'laki_laki' => '26', 'perempuan' => '23', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '56-60 Tahun', 'laki_laki' => '21', 'perempuan' => '30', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '61-65 Tahun', 'laki_laki' => '34', 'perempuan' => '21', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '66-70 Tahun', 'laki_laki' => '17', 'perempuan' => '22', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '71-75 Tahun', 'laki_laki' => '2', 'perempuan' => '10', 'id_tahun' => '1', 'id_dusun' => '8'],
+            ['rentang_usia' => '>75 Tahun', 'laki_laki' => '8', 'perempuan' => '9', 'id_tahun' => '1', 'id_dusun' => '8'],
+
+            ['rentang_usia' => '0-5 Tahun', 'laki_laki' => '20', 'perempuan' => '15', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '6-10 Tahun', 'laki_laki' => '20', 'perempuan' => '12', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '11-15 Tahun', 'laki_laki' => '19', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '16-20 Tahun', 'laki_laki' => '21', 'perempuan' => '21', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '21-25 Tahun', 'laki_laki' => '25', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '26-30 Tahun', 'laki_laki' => '22', 'perempuan' => '25', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '31-35 Tahun', 'laki_laki' => '18', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '36-40 Tahun', 'laki_laki' => '26', 'perempuan' => '21', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '41-45 Tahun', 'laki_laki' => '33', 'perempuan' => '29', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '46-50 Tahun', 'laki_laki' => '20', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '51-55 Tahun', 'laki_laki' => '26', 'perempuan' => '25', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '56-60 Tahun', 'laki_laki' => '31', 'perempuan' => '27', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '61-65 Tahun', 'laki_laki' => '22', 'perempuan' => '24', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '66-70 Tahun', 'laki_laki' => '20', 'perempuan' => '19', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '71-75 Tahun', 'laki_laki' => '14', 'perempuan' => '14', 'id_tahun' => '1', 'id_dusun' => '7'],
+            ['rentang_usia' => '>75 Tahun', 'laki_laki' => '8', 'perempuan' => '11', 'id_tahun' => '1', 'id_dusun' => '7'],
+
+            ['rentang_usia' => '0-5 Tahun', 'laki_laki' => '16', 'perempuan' => '3', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '6-10 Tahun', 'laki_laki' => '8', 'perempuan' => '9', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '11-15 Tahun', 'laki_laki' => '12', 'perempuan' => '10', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '16-20 Tahun', 'laki_laki' => '7', 'perempuan' => '8', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '21-25 Tahun', 'laki_laki' => '12', 'perempuan' => '11', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '26-30 Tahun', 'laki_laki' => '13', 'perempuan' => '14', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '31-35 Tahun', 'laki_laki' => '9', 'perempuan' => '8', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '36-40 Tahun', 'laki_laki' => '14', 'perempuan' => '11', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '41-45 Tahun', 'laki_laki' => '9', 'perempuan' => '15', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '46-50 Tahun', 'laki_laki' => '12', 'perempuan' => '9', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '51-55 Tahun', 'laki_laki' => '6', 'perempuan' => '10', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '56-60 Tahun', 'laki_laki' => '9', 'perempuan' => '10', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '61-65 Tahun', 'laki_laki' => '10', 'perempuan' => '4', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '66-70 Tahun', 'laki_laki' => '11', 'perempuan' => '14', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '71-75 Tahun', 'laki_laki' => '3', 'perempuan' => '3', 'id_tahun' => '1', 'id_dusun' => '3'],
+            ['rentang_usia' => '>75 Tahun', 'laki_laki' => '2', 'perempuan' => '3', 'id_tahun' => '1', 'id_dusun' => '3'],
+
+            ['rentang_usia' => '0-5 Tahun', 'laki_laki' => '38', 'perempuan' => '36', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '6-10 Tahun', 'laki_laki' => '32', 'perempuan' => '33', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '11-15 Tahun', 'laki_laki' => '39', 'perempuan' => '47', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '16-20 Tahun', 'laki_laki' => '33', 'perempuan' => '25', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '21-25 Tahun', 'laki_laki' => '41', 'perempuan' => '26', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '26-30 Tahun', 'laki_laki' => '38', 'perempuan' => '48', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '31-35 Tahun', 'laki_laki' => '24', 'perempuan' => '31', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '36-40 Tahun', 'laki_laki' => '34', 'perempuan' => '43', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '41-45 Tahun', 'laki_laki' => '52', 'perempuan' => '38', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '46-50 Tahun', 'laki_laki' => '41', 'perempuan' => '38', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '51-55 Tahun', 'laki_laki' => '37', 'perempuan' => '35', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '56-60 Tahun', 'laki_laki' => '29', 'perempuan' => '36', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '61-65 Tahun', 'laki_laki' => '33', 'perempuan' => '24', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '66-70 Tahun', 'laki_laki' => '19', 'perempuan' => '30', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '71-75 Tahun', 'laki_laki' => '11', 'perempuan' => '9', 'id_tahun' => '1', 'id_dusun' => '4'],
+            ['rentang_usia' => '>75 Tahun', 'laki_laki' => '18', 'perempuan' => '14', 'id_tahun' => '1', 'id_dusun' => '4'],
+
+            ['rentang_usia' => '0-5 Tahun', 'laki_laki' => '24', 'perempuan' => '13', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '6-10 Tahun', 'laki_laki' => '11', 'perempuan' => '11', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '11-15 Tahun', 'laki_laki' => '24', 'perempuan' => '14', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '16-20 Tahun', 'laki_laki' => '20', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '21-25 Tahun', 'laki_laki' => '17', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '26-30 Tahun', 'laki_laki' => '19', 'perempuan' => '19', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '31-35 Tahun', 'laki_laki' => '19', 'perempuan' => '19', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '36-40 Tahun', 'laki_laki' => '21', 'perempuan' => '16', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '41-45 Tahun', 'laki_laki' => '19', 'perempuan' => '17', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '46-50 Tahun', 'laki_laki' => '10', 'perempuan' => '9', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '51-55 Tahun', 'laki_laki' => '19', 'perempuan' => '21', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '56-60 Tahun', 'laki_laki' => '25', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '61-65 Tahun', 'laki_laki' => '20', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '66-70 Tahun', 'laki_laki' => '17', 'perempuan' => '8', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '71-75 Tahun', 'laki_laki' => '3', 'perempuan' => '4', 'id_tahun' => '1', 'id_dusun' => '2'],
+            ['rentang_usia' => '>75 Tahun', 'laki_laki' => '11', 'perempuan' => '11', 'id_tahun' => '1', 'id_dusun' => '2'],
+
+            ['rentang_usia' => '0-5 Tahun', 'laki_laki' => '20', 'perempuan' => '25', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '6-10 Tahun', 'laki_laki' => '10', 'perempuan' => '12', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '11-15 Tahun', 'laki_laki' => '20', 'perempuan' => '15', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '16-20 Tahun', 'laki_laki' => '16', 'perempuan' => '12', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '21-25 Tahun', 'laki_laki' => '19', 'perempuan' => '17', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '26-30 Tahun', 'laki_laki' => '17', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '31-35 Tahun', 'laki_laki' => '6', 'perempuan' => '19', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '36-40 Tahun', 'laki_laki' => '19', 'perempuan' => '22', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '41-45 Tahun', 'laki_laki' => '22', 'perempuan' => '13', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '46-50 Tahun', 'laki_laki' => '20', 'perempuan' => '19', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '51-55 Tahun', 'laki_laki' => '20', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '56-60 Tahun', 'laki_laki' => '13', 'perempuan' => '10', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '61-65 Tahun', 'laki_laki' => '16', 'perempuan' => '11', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '66-70 Tahun', 'laki_laki' => '15', 'perempuan' => '13', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '71-75 Tahun', 'laki_laki' => '10', 'perempuan' => '6', 'id_tahun' => '1', 'id_dusun' => '6'],
+            ['rentang_usia' => '>75 Tahun', 'laki_laki' => '1', 'perempuan' => '5', 'id_tahun' => '1', 'id_dusun' => '6'],
+
+            ['rentang_usia' => '0-5 Tahun', 'laki_laki' => '10', 'perempuan' => '10', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '6-10 Tahun', 'laki_laki' => '21', 'perempuan' => '15', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '11-15 Tahun', 'laki_laki' => '21', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '16-20 Tahun', 'laki_laki' => '18', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '21-25 Tahun', 'laki_laki' => '22', 'perempuan' => '17', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '26-30 Tahun', 'laki_laki' => '19', 'perempuan' => '24', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '31-35 Tahun', 'laki_laki' => '14', 'perempuan' => '14', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '36-40 Tahun', 'laki_laki' => '17', 'perempuan' => '20', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '41-45 Tahun', 'laki_laki' => '18', 'perempuan' => '26', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '46-50 Tahun', 'laki_laki' => '23', 'perempuan' => '22', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '51-55 Tahun', 'laki_laki' => '22', 'perempuan' => '22', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '56-60 Tahun', 'laki_laki' => '30', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '61-65 Tahun', 'laki_laki' => '10', 'perempuan' => '18', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '66-70 Tahun', 'laki_laki' => '7', 'perempuan' => '11', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '71-75 Tahun', 'laki_laki' => '4', 'perempuan' => '6', 'id_tahun' => '1', 'id_dusun' => '5'],
+            ['rentang_usia' => '>75 Tahun', 'laki_laki' => '1', 'perempuan' => '4', 'id_tahun' => '1', 'id_dusun' => '5'],
+        ]);
+    }
+}
